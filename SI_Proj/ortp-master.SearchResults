@@ -1,0 +1,477 @@
+---- memset Matches (45 in 16 files) ----
+Event.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(m->b_wptr,0,size);
+Ortp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&ortp_global_stats,0,sizeof(rtp_stats_t));
+Ortp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset((void*)stats,0,sizeof(rtp_stats_t));
+Ortp_srtp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		memset(&policy, 0, sizeof(srtp_policy_t));
+Ortp_srtp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		memset(&policy, 0, sizeof(srtp_policy_t));
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(result, '\0', result_len);
+Port.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(ptr,0,size);
+Port.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&ol,0,sizeof(ol));
+Rtcp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(app->name,0,4);
+RTPReceiver.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_receiver):	memset(&strBuffer, 0x0, sizeof(strBuffer));
+RTPReceiver.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_receiver):	memset(strFilename, 0x0, sizeof(strFilename));
+RTPSender.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_sender):	memset(&strBuffer, 0x0, sizeof(strBuffer));
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(session, 0, sizeof (RtpSession));
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		memset(&ovi, 0, sizeof(ovi));
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&session->rtp.stats,0,sizeof(rtp_stats_t));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&hints, 0, sizeof(hints));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(optval, activate, sizeof(optval));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&ovi, 0, sizeof(ovi));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&hints, 0, sizeof(hints));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&hints, 0, sizeof(hints));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&msghdr, 0, sizeof(msghdr));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&iov, 0, sizeof(iov));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&msghdr, 0, sizeof(msghdr));
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(control, 0, sizeof(control));
+Rtpsignaltable.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(table,0,sizeof(RtpSignalTable));
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(sched,0,sizeof(RtpScheduler));
+Str_utils.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&(mp->timestamp), 0, sizeof(struct timeval));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset(msg, 0, sizeof(*msg));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset( &req, 0 , sizeof(req) );
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset( resp, 0 , sizeof(*resp) );
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset(info->relays, 0, sizeof(info->relays));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset( msg , 0 , sizeof(*msg) );
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset(&req, 0, sizeof(StunMessage));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset(&resp, 0, sizeof(StunMessage));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset(&testImappedAddr,0,sizeof(testImappedAddr));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):                  memset(&resp, 0, sizeof(StunMessage));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset(&resp, 0, sizeof(StunMessage));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):      memset(&resp, 0, sizeof(StunMessage));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):  memset(&req, 0, sizeof(StunMessage));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):  memset(&req.requestedTransport, 0, sizeof(req.requestedTransport));
+Stun.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):      memset(&resp, 0, sizeof(StunMessage));
+Stun_udp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):   memset((char*) &(addr),0, sizeof((addr)));
+Stun_udp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):      memset(&to,0,toLen);
+Zrtp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&policy,0,sizeof(policy));
+Zrtp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memset(&userData->zrtp_cb,0,sizeof(userData->zrtp_cb));
+---- malloc_fun Matches (2 in 2 files) ----
+Port.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	return ortp_allocator.malloc_fun(sz);
+Port.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):	void *(*malloc_fun)(size_t sz);
+---- thread_running Matches (8 in 2 files) ----
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (sched->thread_running){
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (sched->thread_running==0){
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		sched->thread_running=1;
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (sched->thread_running==1)
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		sched->thread_running=0;
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (sched->thread_running) rtp_scheduler_stop(sched);
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	while(sched->thread_running)
+Scheduler.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	int thread_running;
+---- timer_inc Matches (4 in 3 files) ----
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	sched->timer_inc = (timer->interval.tv_usec/1000) + (timer->interval.tv_sec*1000);
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		sched->time_ += sched->timer_inc;
+Scheduler.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	uint32_t timer_inc;	/* the timer increment in milisec */
+Sessionset.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		remainingTime -= sched->timer_inc;
+---- user_ts Matches (39 in 11 files) ----
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):static inline uint32_t jitter_control_get_compensated_timestamp(JitterControl *obj , uint32_t user_ts){
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	return (uint32_t)( (int64_t)user_ts+obj->slide-(int64_t)obj->adapt_jitt_comp_ts);
+Mrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	uint32_t user_ts=0;
+Mrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):				rtp2disk(session[k],user_ts,filefd[k]);
+Mrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		user_ts+=160;
+Mrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	uint32_t user_ts=0;
+Mrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):				rtp_session_send_with_ts(session[k],buffer,i,user_ts);
+Mrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		user_ts+=ts_inc;
+Rtpmemtest.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	uint32_t user_ts=0;
+Rtpmemtest.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):				rtp2disk(session[k],user_ts,filefd[k]);
+Rtpmemtest.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		user_ts+=160;
+RTPReceiver.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_receiver):	uint32_t			user_ts				= 0;
+RTPReceiver.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_receiver):				rtp2disk(session[k],user_ts,filefd[k]);
+RTPReceiver.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_receiver):		user_ts+=160;
+Rtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	uint32_t user_ts=0;			// 时间戳
+Rtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		rtp_session_send_with_ts(session, buffer, i, user_ts);
+Rtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		user_ts+=160;
+Rtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		if (clockslide!=0 && user_ts%(160*50)==0){
+Rtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		if (jitter && (user_ts%(8000)==0)) {
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):rtp_session_recvm_with_ts (RtpSession * session, uint32_t user_ts)
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		session->rtp.rcv_query_ts_offset = user_ts;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		if (user_ts==session->rtp.rcv_last_app_ts)
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	session->rtp.rcv_last_app_ts = user_ts;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		rtp_session_rtp_recv (session, user_ts);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		session->rtp.rcv_last_ret_ts = user_ts;	/* just to have an init value */
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	ts = jitter_control_get_compensated_timestamp(&session->rtp.jittctl,user_ts);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):				     user_ts -
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC mblk_t * rtp_session_recvm_with_ts (RtpSession * session, uint32_t user_ts);
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):int rtp_session_rtp_recv (RtpSession * session, uint32_t user_ts)
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):				rtp_session_rtp_parse(session, mp, user_ts, (struct sockaddr*)&remaddr,addrlen);	
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):						rtp_session_rtp_parse(session, mp, user_ts, (struct sockaddr*)&session->rtp.rem_addr,session->rtp.rem_addrlen);						
+Tevmrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	uint32_t user_ts=0;
+Tevmrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):				rtp2disk(session[k],user_ts,filefd[k]);
+Tevmrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		user_ts+=160;
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	uint32_t user_ts=0;
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		rtp_session_send_with_ts(session,buffer,i,user_ts);
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		user_ts+=160;
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):			rtp_session_send_dtmf(session,'*',user_ts);
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):			user_ts+=160+160+160; /* the duration of the dtmf */
+---- jitt_comp Matches (4 in 2 files) ----
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (base_jiitt_time!=-1) ctl->jitt_comp = base_jiitt_time;
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):			(int) (((double) ctl->jitt_comp / 1000.0) * (pt->clock_rate));
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	int nom_size=session->rtp.jittctl.jitt_comp;
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):	int jitt_comp;   /* the user jitt_comp in miliseconds*/
+---- jitter_control_init Matches (4 in 3 files) ----
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *payload){
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	jitter_control_init(&session->rtp.jittctl,milisec,payload);
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *pt);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	jitter_control_init(&session->rtp.jittctl,-1,NULL);
+---- rtp_session_resync Matches (3 in 2 files) ----
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void rtp_session_resync(RtpSession *session){
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	rtp_session_resync(session);
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void rtp_session_resync(RtpSession *session);
+---- rtp_session_reset Matches (3 in 3 files) ----
+Rtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_session_signal_connect(session,"ssrc_changed",(RtpCallback)rtp_session_reset,0);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void rtp_session_reset (RtpSession * session)
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void rtp_session_reset(RtpSession *session);
+---- connect Matches (7 in 2 files) ----
+Port.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (connect(sock,(struct sockaddr*)&sa,sizeof(sa))!=0){
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	if (connect(fd,dest,addrlen)<0){
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		ortp_warning("Could not connect() socket: %s",getSocketError());
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		if (connect(session->rtp.socket,&sa,sizeof(sa))<0){
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):			ortp_error("Cannot dissolve connect() association for rtp socket: %s", getSocketError());
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		if (connect(session->rtcp.socket,&sa,sizeof(sa))<0){
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):			ortp_error("Cannot dissolve connect() association for rtcp socket: %s", getSocketError());
+---- ortp_client_pipe_connect Matches (3 in 2 files) ----
+Port.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):ortp_socket_t ortp_client_pipe_connect(const char *name){
+Port.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):ortp_pipe_t ortp_client_pipe_connect(const char *name){
+Port.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC ortp_pipe_t ortp_client_pipe_connect(const char *name);
+---- rtp_session_set_remote_addr_full Matches (4 in 2 files) ----
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):rtp_session_set_remote_addr_full (RtpSession * session, const char * rtp_addr, int rtp_port, const char * rtcp_addr, int rtcp_port);
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	return rtp_session_set_remote_addr_full (session, addr, port, addr, port+1);
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):rtp_session_set_remote_addr_full (RtpSession * session, const char * rtp_addr, int rtp_port, const char * rtcp_addr, int rtcp_port)
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	return rtp_session_set_remote_addr_full(session,addr,rtp_port,addr,rtcp_port);
+---- rtp_session_set_remote_addr Matches (7 in 7 files) ----
+Mrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):		rtp_session_set_remote_addr(session[i],argv[2],port);
+Rtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_session_set_remote_addr(session, argv[2], atoi(argv[3]));	// 设置会话远程地址
+RTPSender.cpp (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests\win_sender):		rtp_session_set_remote_addr(m_Session[nCounter],argv[2], m_nPort);
+Rtpsend_stupid.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_session_set_remote_addr(session,argv[2],atoi(argv[3]));
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC int rtp_session_set_remote_addr(RtpSession *session,const char *addr, int port);
+Rtpsession_inet.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):rtp_session_set_remote_addr (RtpSession * session, const char * addr, int port){
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_session_set_remote_addr(session,argv[2],atoi(argv[3]));
+---- av_profile Matches (7 in 7 files) ----
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):RtpProfile av_profile;
+Ortp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	av_profile_init(&av_profile);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC RtpProfile av_profile;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	rtp_session_set_profile(session, &av_profile); /*the default profile to work with */
+Tevmrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):        rtp_profile_set_payload(&av_profile,96,&payload_type_telephone_event);
+Tevrtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_profile_set_payload(&av_profile,96,&payload_type_telephone_event);
+Tevrtpsend.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_profile_set_payload(&av_profile,96,&payload_type_telephone_event);
+---- PayloadType Matches (155 in 9 files) ----
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_pcmu8000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_pcma8000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_pcm8000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_l16_mono={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_l16_stereo={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_lpc1016={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_gsm=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_lpc=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g7231=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g729={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g7221={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_40={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_32={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_24={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_16={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_40={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_32={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_24={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_16={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_mpv=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h261={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h263={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_truespeech=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_lpc1015={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_speex_nb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_speex_wb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_speex_uwb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_ilbc={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_amr={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_amrwb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_mp4v={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_evrc0={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_evrcb0={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h263_1998={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h263_2000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_theora={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h264={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_x_snow={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_jpeg={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_vp8={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType	payload_type_t140={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_t140_red={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType	payload_type_x_udpftp={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g722={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_nb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_mb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_wb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_swb={
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *payload){
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_set_payload(JitterControl *ctl, PayloadType *pt){
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload=NULL;
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *pt);
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_set_payload(JitterControl *ctl, PayloadType *pt);
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):char *payload_type_get_rtpmap(PayloadType *pt)
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType *payload_type_new()
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *newpayload=(PayloadType *)ortp_new0(PayloadType,1);
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType *payload_type_clone(PayloadType *payload)
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *newpayload=(PayloadType *)ortp_new0(PayloadType,1);
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memcpy(newpayload,payload,sizeof(PayloadType));
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):static bool_t canWrite(PayloadType *pt){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_set_recv_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_set_send_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_append_recv_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_append_send_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_destroy(PayloadType *pt)
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):typedef struct _PayloadType PayloadType;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType *payload_type_new(void);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType *payload_type_clone(PayloadType *payload);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC char *payload_type_get_rtpmap(PayloadType *pt);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_destroy(PayloadType *pt);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_set_recv_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_set_send_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_append_recv_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_append_send_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_pcmu8000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_pcma8000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_pcm8000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_l16_mono;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_l16_stereo;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_lpc1016;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g729;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g7231;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g7221;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_40;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_32;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_24;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_16;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_40;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_32;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_24;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_16;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_gsm;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_lpc;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_lpc1015;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_speex_nb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_speex_wb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_speex_uwb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_ilbc;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_amr;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_amrwb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_truespeech;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_evrc0;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_evrcb0;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_nb;	
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_mb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_wb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_swb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_mpv;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h261;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h263;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h263_1998;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h263_2000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_mp4v;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_theora;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h264;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_x_snow;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_jpeg;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_vp8;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g722;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_t140;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_t140_red;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_x_udpftp;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_telephone_event;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType * rtp_profile_find_payload(RtpProfile *prof,const char *mime,int rate,int channels)
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType * rtp_profile_get_payload_from_mime(RtpProfile *profile,const char *mime)
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType * rtp_profile_get_payload_from_rtpmap(RtpProfile *profile, const char *rtpmap)
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void rtp_profile_set_payload(RtpProfile *prof, int idx, PayloadType *pt){
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):	PayloadType *payload[RTP_PROFILE_MAX_PAYLOADS];
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void rtp_profile_set_payload(RtpProfile *prof, int idx, PayloadType *pt);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):static inline PayloadType * rtp_profile_get_payload(RtpProfile *prof, int idx){
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType * rtp_profile_get_payload_from_mime(RtpProfile *profile,const char *mime);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType * rtp_profile_get_payload_from_rtpmap(RtpProfile *profile, const char *rtpmap);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType * rtp_profile_find_payload(RtpProfile *prof,const char *mime,int rate, int channels);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):static void payload_type_changed(RtpSession *session, PayloadType *pt){
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		PayloadType *pt=rtp_profile_get_payload(session->rcv.profile,recvpt);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		PayloadType *pt=rtp_profile_get_payload(session->snd.profile,sendpt);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt=rtp_profile_get_payload(session->rcv.profile,paytype);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt = rtp_profile_get_payload(session->rcv.profile,paytype);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Telephonyevents.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType	payload_type_telephone_event={
+---- PayloadType Matches (155 in 9 files) ----
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_pcmu8000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_pcma8000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_pcm8000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_l16_mono={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_l16_stereo={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_lpc1016={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_gsm=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_lpc=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g7231=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g729={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g7221={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_40={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_32={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_24={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g726_16={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_40={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_32={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_24={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_aal2_g726_16={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_mpv=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h261={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h263={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_truespeech=
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_lpc1015={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_speex_nb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_speex_wb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_speex_uwb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_ilbc={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_amr={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_amrwb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_mp4v={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_evrc0={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_evrcb0={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h263_1998={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h263_2000={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_theora={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_h264={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_x_snow={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_jpeg={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_vp8={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType	payload_type_t140={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_t140_red={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType	payload_type_x_udpftp={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_g722={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_nb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_mb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_wb={
+Avprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType payload_type_silk_swb={
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *payload){
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_set_payload(JitterControl *ctl, PayloadType *pt){
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload=NULL;
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *pt);
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_set_payload(JitterControl *ctl, PayloadType *pt);
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):char *payload_type_get_rtpmap(PayloadType *pt)
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType *payload_type_new()
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *newpayload=(PayloadType *)ortp_new0(PayloadType,1);
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType *payload_type_clone(PayloadType *payload)
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *newpayload=(PayloadType *)ortp_new0(PayloadType,1);
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	memcpy(newpayload,payload,sizeof(PayloadType));
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):static bool_t canWrite(PayloadType *pt){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_set_recv_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_set_send_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_append_recv_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_append_send_fmtp(PayloadType *pt, const char *fmtp){
+Payloadtype.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void payload_type_destroy(PayloadType *pt)
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):typedef struct _PayloadType PayloadType;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType *payload_type_new(void);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType *payload_type_clone(PayloadType *payload);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC char *payload_type_get_rtpmap(PayloadType *pt);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_destroy(PayloadType *pt);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_set_recv_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_set_send_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_append_recv_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void payload_type_append_send_fmtp(PayloadType *pt, const char *fmtp);
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_pcmu8000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_pcma8000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_pcm8000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_l16_mono;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_l16_stereo;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_lpc1016;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g729;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g7231;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g7221;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_40;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_32;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_24;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g726_16;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_40;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_32;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_24;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_aal2_g726_16;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_gsm;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_lpc;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_lpc1015;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_speex_nb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_speex_wb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_speex_uwb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_ilbc;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_amr;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_amrwb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_truespeech;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_evrc0;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_evrcb0;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_nb;	
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_mb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_wb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_silk_swb;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_mpv;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h261;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h263;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h263_1998;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h263_2000;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_mp4v;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_theora;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_h264;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_x_snow;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_jpeg;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_vp8;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_g722;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_t140;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_t140_red;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_x_udpftp;
+Payloadtype.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):VAR_DECLSPEC PayloadType payload_type_telephone_event;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType * rtp_profile_find_payload(RtpProfile *prof,const char *mime,int rate,int channels)
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType * rtp_profile_get_payload_from_mime(RtpProfile *profile,const char *mime)
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType * rtp_profile_get_payload_from_rtpmap(RtpProfile *profile, const char *rtpmap)
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void rtp_profile_set_payload(RtpProfile *prof, int idx, PayloadType *pt){
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpprofile.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):	PayloadType *payload[RTP_PROFILE_MAX_PAYLOADS];
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void rtp_profile_set_payload(RtpProfile *prof, int idx, PayloadType *pt);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):static inline PayloadType * rtp_profile_get_payload(RtpProfile *prof, int idx){
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType * rtp_profile_get_payload_from_mime(RtpProfile *profile,const char *mime);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType * rtp_profile_get_payload_from_rtpmap(RtpProfile *profile, const char *rtpmap);
+Rtpprofile.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC PayloadType * rtp_profile_find_payload(RtpProfile *prof,const char *mime,int rate, int channels);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):static void payload_type_changed(RtpSession *session, PayloadType *pt){
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		PayloadType *pt=rtp_profile_get_payload(session->rcv.profile,recvpt);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):		PayloadType *pt=rtp_profile_get_payload(session->snd.profile,sendpt);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt=rtp_profile_get_payload(session->rcv.profile,paytype);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *pt = rtp_profile_get_payload(session->rcv.profile,paytype);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	PayloadType *payload;
+Telephonyevents.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):PayloadType	payload_type_telephone_event={
+---- jitter_control_init Matches (4 in 3 files) ----
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *payload){
+Jitterctl.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	jitter_control_init(&session->rtp.jittctl,milisec,payload);
+Jitterctl.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void jitter_control_init(JitterControl *ctl, int base_jiitt_time, PayloadType *pt);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	jitter_control_init(&session->rtp.jittctl,-1,NULL);
+---- rtp_session_resync Matches (3 in 2 files) ----
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void rtp_session_resync(RtpSession *session){
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	rtp_session_resync(session);
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void rtp_session_resync(RtpSession *session);
+---- rtp_session_reset Matches (3 in 3 files) ----
+Rtprecv.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src\tests):	rtp_session_signal_connect(session,"ssrc_changed",(RtpCallback)rtp_session_reset,0);
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):void rtp_session_reset (RtpSession * session)
+Rtpsession.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):ORTP_PUBLIC void rtp_session_reset(RtpSession *session);
+---- sem_post Matches (0 in 0 files) ----
+---- pthread_mutex_init Matches (1 in 1 files) ----
+Port.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):#define ortp_mutex_init		pthread_mutex_init
+---- ortp_mutex_init Matches (6 in 5 files) ----
+Event.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	ortp_mutex_init(&q->mutex,NULL);
+Port.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):#define ortp_mutex_init		pthread_mutex_init
+Port.h (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\include\ortp):#define ortp_mutex_init		WIN_mutex_init
+Rtpsession.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	ortp_mutex_init(&wp->lock,NULL);
+Scheduler.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	ortp_mutex_init(&sched->lock, NULL);
+Zrtp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\ortp-master\src):	ortp_mutex_init(&userData->mutex,NULL);
